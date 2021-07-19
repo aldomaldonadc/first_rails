@@ -1,0 +1,10 @@
+<h1>Lista de restaurants</h1>
+
+<% categories = %w[rápida india mexicana] %>
+
+<h2>Categorías</h2>
+<ul>
+<% categories.each do |category| %>
+<li><%= category.capitalize %></li>
+<% end %>
+</ul>
